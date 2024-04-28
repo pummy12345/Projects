@@ -1,0 +1,23 @@
+  class Calculator
+  {
+    int a;
+     
+    public int add( int x)
+    {
+        System.out.println(x +" : in add");
+        return 0;
+    }
+  }
+ 
+ public class Hello
+{
+    public static void main(String a[])
+    {
+        int num1=90;
+        int num2=908;
+        Calculator c=new Calculator();
+        c.add(20);
+
+        
+    }
+}
